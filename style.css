@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nopadding {
+  padding: 0 !important;
+}
+
+.menu {
+  background-color: #000 !important;
+}
+
+.herobg {
+  padding-top: 200px !important;
+  padding-bottom: 200px !important;
+  background-image: url(./2.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-blend-mode: overlay !important;
+  background-color: #0009;
+  background-attachment: fixed;
+}
+
+.welcome {
+  font-family: league spartan;
+  font-size: 70px !important;
+  font-weight: bolder;
+  line-height: 1em;
+}
+
+.myicon {
+  color: #d3621a !important;
+}
+
+.mycart {
+  color: #d3621a !important;
+}
+
+.mycart:hover {
+  color: #df864f !important;
+}
+
+.about {
+  padding: 120px 0 !important;
+  background-image: url(./4.jpg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-color: #0009;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
+
+.about2 {
+  padding: 180px !important;
+  background-image: url(./5.jpg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+
+#contact {
+  padding: 120px 0;
+  background-image: url(./5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0009;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
+
+.border {
+  box-shadow: 1px 3px 3px #c1c1c1;
+  transition: 0.5s ease;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.14) !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.border:hover {
+  box-shadow: 10px 5px 5px #c1c1c1 !important;
+  transition: 0.5s ease;
+}
+
+.grow {
+  transition: all 0.5s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.second-heading {
+  font-family: league spartan !important;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #d3621a !important;
+}
+
+.pheading {
+  font-family: league spartan;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #d3621a !important;
+}
+
+.ptext {
+  font-family: league spartan;
+  font-size: 19px;
+}
+
+.navtext {
+  font-family: league spartan;
+  font-size: 25px;
+  color: white;
+}
+
+.navtext:hover {
+  color: #d3621a !important;
+}
+
+.btn-warning {
+  background-color: #d3621a !important;
+  border: solid 1px #d3621a !important;
+  color: white !important;
+}
+
+.btn-warning:hover {
+  background-color: #df864f !important;
+  border: solid 1px #df864f !important;
+  color: white !important;
+}
+
+#testimonial {
+  padding: 120px 0;
+  background-image: url(./testimonial.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0009;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
+
+#ourmenu {
+  padding: 120px 0;
+  background-image: url(./chef.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0009;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
